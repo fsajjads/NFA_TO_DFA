@@ -1,0 +1,8 @@
+(executables
+    (names student)
+    (libraries str p3 oUnit testUtils))
+
+(alias
+    (name runtest)
+    (action
+        (progn (run ./student.bc))))

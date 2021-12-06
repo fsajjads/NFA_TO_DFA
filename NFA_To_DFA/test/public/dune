@@ -1,0 +1,8 @@
+(executables
+    (names public)
+    (libraries str p3 oUnit testUtils))
+
+(alias
+    (name runtest)
+    (action
+        (progn (run ./public.bc))))
